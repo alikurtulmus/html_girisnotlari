@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Header Tags</title>
+  </head>
+  <body>
+    <h1>
+      H1 etiketi ile başlıkları yazarız. En büyük fonta sahip H etiketi H1'dir
+    </h1>
+    <h2>
+      H2 ile genellikle bir alt başlıklar yazılır. 2. büyük fonta sahip H
+      etiketi H2'dir.
+    </h2>
+    <h3>3. büyük fonta sahip H etiketi H3'tür.</h3>
+    <h4>4. büyük fonta sahip H etiketi H4'tür.</h4>
+    <h5>5. büyük fonta sahip H etiketi H5'dir.</h5>
+    <h6>6. büyük fonta sahip H etiketi H6'dır.</h6>
+
+    <p>
+      H etiketleri ile yazmak istemediğimiz metinleri "P" etiketi ile
+      yazabiliriz.
+    </p>
+
+<!-- aşağıdaki a etiketlerinin kullanımı alt kısımlarda açıklanmıştır -->
+
+    <a href="#bolum1">PARAGRAF ETİKETLERİ</a>
+    <a href="#bolum2">LİNK KULLANIMI</a>
+
+    <p style="font-size: 32px">
+      p etiketi içindeki metinlerin font büyüklüğünü değiştirmek için <'p
+      style="font-size: 32px;"> ifadesi kullanılır.
+    </p>
+    <p style="font-size: 32px; font-weight: 700">
+      p etiketi içindeki metinlerin font kalınlığını değiştirmek için <'p
+      style="font-weight: 700"> ifadesi kullanılır.
+    </p>
+
+    <br /><br />
+
+    <p>br etiketi ile satırlar arası boşluk bırakırız.</p>
+
+    <h2 id="bolum1">PARAGRAF ETİKETLERİ</h2>
+    <p>
+      Paragraf etiketleri ile ilgili videodan alınan notlar aşağıdaki gibidir.
+    </p>
+    <br />
+
+    <p style="color: red">
+      Paragrafta yer alan harflerin rengini değiştirmek için <'p style="color:
+      red;"> komutunu kullanırız.
+    </p>
+
+    <p>
+        <h4>
+            Biçimlendirme Etiketleri (Bu başlık p etiketi içine H4 etiketi yazılarak oluşturuldu)
+        </h4>
+
+        <b> "B etikketi"</b> ile metinleri kalın harfle yazabiliriz. <br>
+        <strong> "Strong etiketi</strong> de istediğimiz metni kalın yazar ancak B etiketinden farklı olarak sisteme de o kelimenin önemli olduğunu bildirir. <br>
+        <i>"İ etiketi"</i> ile metinleri italik yazarız.
+        <em>"EM etiketi"</em> de metinleri italik yazar ancak bilgisayara seslendirme yaparken "em" etiketi içindeki ifadeler vurgulu olarak seslendirilir. <br>
+        <small>"Small etiketi"</small> ile daha küçük metinsel ifadeler yazabilirsiniz. <br>
+        <mark>"Mark etiketi"</mark> ile metni işaretleyebilirsiniz <br>
+        <del>"Del etiketi"</del> ile metnin siler (sayfada üstü çizili şekilde görünür), <ins>"ins etiketi"</ins> ile yeni bir içerik ekleyebiliriz. (sayfada altı çizili şekilde görünür) <br>
+        Kimyadaki O2 molekünün gösterimini yapmak için "sub etiketini" kullanırız. Matemetikteki üstlü ifadeleri yazabilmek için de "sup etiketini" kullanırız. Örneğin; <br>
+        O<sub>2</sub> ve O<sup>2</sup> <br>
+        <b>Bu web sayfasının üstündeyken mouse'a sağ tıklayıp "İncele" seçeneğine tıklarsan bu sayfanın kodlarına ulaşabilirsin.</b> <br>
+        HTML yazarken bir metni seçip ctrl+k+c yaparsan o metni yorum satırına dönüştürür ve o yorum satırı web sayfasında görünmez. ctrl+k+u yaparak da mevcutta yorum satırı olan bir metni yorum satırından kurtarırız.  <br>
+    </p>
+
+    <p>
+        Resim eklemek için body etiketi içerisine {img src="dosya konumu" alt="dosya tanımı"} şeklinde komut yazmamız gerekmekte. Aynı etiket içine width="300" height="400" yazarak resmin enini ve boyunu ayarlayabiliriz. Sadece en veya sadece boy için ayarlama yaptığımızda, ayarlama yapmadığımız özelliğini resmin orijinali ile aynı orantıda yükler.
+    </p>
+    <img src="C:\Users\mehmetalikurtulmus\Desktop\Full_Stack\FrontEnd\sadikturan\resimler\Gorillaz.jpeg" alt="gorilla resmi" width="300">
+    <img src="QueenOfTheJungle.jpeg" alt="Queen resmi" width="300"> <br>
+    <p>
+    Aslanlı resmi VS Code içine atıp src kısmındaki linki "QueenOfTheJungle.jpeg" olarak vererek siteye ekledik.
+    </p>
+    <br>
+    <img src="resimler/Deer_Ballet.jpeg" alt="Deer resmi" width="300"> 
+    <p>
+    Geyikli resmi kodları yazdığımız dosyanın içinde oluşturduğumuz "resimler" klasörüne atıp dosya linki kısmında otomatik olarak gelen "resimler/Deer_Ballet.jpeg" linkini yerleştirdik.
+    </p>
+    <br>
+    <h2 id="bolum2">LİNK KULLANIMI</h2>
+    <p>Bir siteye link koymak için "a" etiketi kullanılır. <'a href="sitenin linki"> <a href="https://medium.com/@mkurtulmus-eng">linki bağlayacağımız yazı veya obje </a> <'/a> </p>
+    <br>
+    <p>
+    vs code'da bir dosyayı .zip uzantısı ile kaydedip link kısmına dosya uzantısını eklediğimizde, sitede o kısım tıklandığında dosyayı indirme seçenekleri gelir.
+    </p>
+    <br>
+    <a href="QueenOfTheJungle.zip">Resmi indir</a>
+    <p>
+      Eğer bir objeye verdiğimiz link farklı sayfada açılsın istiyorsak <b>a href="" target="_blank"</b> olarak yazmamız gerekiyor.
+    </p>
+    <br>
+    <a href="https://medium.com/@mkurtulmus-eng" target="_blank">Yeni Sekmede Aç</a><br>
+    
+    <h3>Resimlere Link Yüklemek</h3>
+    <p>
+      Resimlere link yüklemek için normalde açıklama yazdığımız alana: <b> img src="resim linki" alt=""</b> yazmamız gerekir. Örneği incelemek için sayfa kodlarına bakabilirsiniz.
+    </p>
+    <a href="https://www.linkedin.com/feed/?trk=nav_logo" target="_blank">
+      <img src="resimler/Bull&Bear.jpeg" alt="" width="300">
+    </a>
+    <br>
+    <p>
+      a href etiketi ile link verdiğimizde title="" komutu ile linkin üstüne geldiğimizde küçük sarı kutucuk içinde title="" komutu içine yazdığımız açıklamayı görebiliriz. aşağıdaki mail gönderme örneğine bakabilirsiniz.
+    </p>
+
+    <p>"a href="mailto: mailadresi" komutu ile mail atabiliriz.</p> <br>
+
+    <a href="mailto:mkurtulmus.eng@gmail.com" title="mkurtulmus.eng@gmail.com'a mail atacaksınız">mail gönder</a><br>
+<p>bir sayfada bölümlere link vermek için a href="#bölümad" komutunu kullanabiliriz. Bu sayfada "PARAGRAF ETİKETLERİ" ve "LİNK KULLANIMI" kısımlarını ayrı bölümler olarak kullanacağız.</p>
+
+
+
+
+  </body>
+</html>
